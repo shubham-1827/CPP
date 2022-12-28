@@ -2,7 +2,7 @@ important commands:
 1. cd - change directory
 2. ls - look into the directory(list all files in directory.)
 3. g++ - invokes the gnu c++ compiler
-4. clang++ - invokes the clang compiler
+4. clang++ - invokes the clang c++ compiler
 5. -o file_name flag - change the name of executable according to you.
 
 proccess of runnig a program:
