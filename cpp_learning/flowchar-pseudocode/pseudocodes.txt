@@ -1,0 +1,170 @@
+simple interest :
+
+read p,r,t
+si = p*r*t / 100
+print si
+exit
+
+sum of 1 to n :
+
+read n
+
+i=1
+sum = 0
+
+while (i<=n) {
+  sum += i
+  i++
+}
+
+print sum
+exit
+
+sum of n integers :
+
+read n
+
+i = 1
+sum = 0
+
+while (i<=n) {
+  read val
+  sum += val
+  i++
+}
+
+print sum
+exit
+
+prime or not :
+
+read n 
+
+i = 2
+while (i<n) {
+  if (n%i==0) {
+    print "Not prime"
+    exit
+  }
+}
+print "prime"
+exit
+
+gcd :
+
+read a, b
+
+gcd = 1
+
+if (a<=b) {
+  gcd = a
+}
+else {
+  gcd = b
+}
+
+i = gcd 
+while (i>0) {
+  if (a%i==0 and b%i==0) {
+    gcd = i
+    print gcd
+    exit
+  }
+}
+print gcd
+exit
+
+star pattern :
+
+for n=4
+
+*
+**
+***
+****
+
+read n
+
+i=1
+while (i<=n) {
+  j=1
+  while(j<=i) {
+    print "*"
+  }
+}
+exit
+
+star pyramid :
+
+n=4
+
+   *
+  ***
+ *****
+*******
+
+read n 
+
+i=1
+while (i<=n) {
+  
+  spaces = 1
+  while (spaces <= n-i) {
+    print " " 
+  }
+
+  stars = 1
+  while (stars <= 2*i-1) {
+    print "*"
+  }
+}
+exit
+
+product till 10 :
+
+read n 
+
+i=1
+while (i<=10) {
+  print n*i
+}
+exit
+
+fizz buzz problem :
+
+i = 1
+while (i<=100) {
+  if (i%3 == 0 and i%5 == 0) {
+    if (i%3==0) {
+      print "Buzz"
+    }
+    if (i%5==0) {
+      print "Fuzz"
+    }
+  }
+  else {
+    print i
+  }
+  print " "
+}
+exit
+
+factorial of a number :
+
+read n 
+
+if (n>=0) {
+  i = 1
+  factorial = 1
+  while (i<=n) {
+    factorial *= i
+  }
+
+print factorial
+exit
+}
+
+else {
+  print "not valid"
+  exit
+}

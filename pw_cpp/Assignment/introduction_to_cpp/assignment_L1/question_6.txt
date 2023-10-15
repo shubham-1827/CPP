@@ -1,0 +1,12 @@
+Ques: How many of these can be a variable name?
+
+ 01PWskills - invalid name
+
+ _FLOAT - valid name
+
+ int - invalid name
+
+ FLOAT - valid name
+
+ You will succeed - invalid name
+
