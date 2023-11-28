@@ -1,0 +1,13 @@
+
+How many of these can be a variable name ?
+
+1. 01Pwskills
+2. _FLOAT
+3. int
+4. FLOAT
+5. You will succeed
+
+the 2 and 4 can be a valid variable name
+
+in 1 its starting with a number, 3 is the keyword, in 5 there is the use of space , so these cant be variable names
+
