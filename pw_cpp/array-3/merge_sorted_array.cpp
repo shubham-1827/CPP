@@ -11,7 +11,7 @@ vector<int> merge(vector<int> &v1, vector<int> &v2) // filling the elements in n
 
     while (k < v3.size())
     {
-        if (i >= n1)
+        if (i >= n1)E
             v3[k++] = v2[j++];
         else if (j >= n2)
             v3[k++] = v1[i++];
@@ -28,7 +28,7 @@ vector<int> merge1(vector<int> &v1, vector<int> &v2) // filling the elements in 
     int n1 = v1.size(), n2 = v2.size();
     int i = n1 - 1, j = n2 - 1, k = n1 + n2 - 1;
     vector<int> v3(n1 + n2);
-    while (k >= 0)
+    while (k >= 0)`
     {
         if (i < 0)
             v3.at(k--) = v2.at(j--);
