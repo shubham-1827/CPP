@@ -26,3 +26,4 @@ int main()
     cout << "The given points do not lie on the same straight line.";
   }
   return 0;
+}
