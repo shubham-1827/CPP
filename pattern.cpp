@@ -1,17 +1,18 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 void space_printer(int a)
 {
   // for spaces
   for (int spaces = 1; spaces <= a; spaces++)
   {
-    printf(" ");
+    cout << " ";
   }
 }
 
 void new_line()
 {
-  printf("\n");
+  cout << endl;
 }
 
 void pattern_printer(int n, char ch)
@@ -25,16 +26,16 @@ void pattern_printer(int n, char ch)
     {
       if (ch == '*')
       {
-        printf("*");
+        cout << "*";
       }
       else if (ch == 'a')
       {
-        printf("%c", character);
+        cout << character;
         character++;
       }
       else
       {
-        printf("%d", j);
+        cout << j;
       }
     }
     new_line();
@@ -44,8 +45,8 @@ void pattern_printer(int n, char ch)
 int main()
 {
   char ch;
-  printf("Choose the pattern you want to print : ");
-  scanf("%c", &ch);
+  cout << "Choose the pattern you want to print :";
+  cin >> ch;
   int n;
   printf("\nEnter the number of rows: ");
   scanf("%d", &n);

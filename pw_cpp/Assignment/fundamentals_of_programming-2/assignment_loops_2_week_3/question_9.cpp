@@ -6,6 +6,49 @@
 #include <iostream>
 using namespace std;
 
+void armstrong_printer(int n)
+{
+
+  for (int i = 1; i <= n; i++)
+  {
+    int sum = 0;
+    int count = 0;
+
+    int num = i;
+    // count unit
+    while (num > 0)
+    {
+      count++;
+      num /= 10;
+    }
+    num = i;
+
+    // power calculation
+    while (num > 0)
+    {
+      int last_digit = num % 10;
+      int power = 1;
+      for (int j = 0; j < count; j++)
+      {
+        power *= last_digit;
+      }
+      sum += power;
+      num /= 10;
+    }
+
+    if (sum == i)
+    {
+      cout << i << " ";
+    }
+  }
+  cout << endl;
+}
 int main()
 {
+  int n;
+  cin >> n;
+
+  armstrong_printer(n);
+
+  return 0;
 }
