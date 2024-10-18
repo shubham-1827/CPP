@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
   int x = 10;
   cout << (x = 7) << endl;
 
@@ -42,9 +41,9 @@ int main()
 
   // priority - () > (%, *, /) > (+, -) > (>, >=, <, <=) > (==, !=)
 
-  int p = 5, q = 10;
-  p += q -= p; // in this case we will calculate from right to left
-  cout << p << " " << q << endl;
+  int s = 5, t = 10;
+  s += t -= s; // in this case we will calculate from right to left
+  cout << s << " " << t << endl;
 
   return 0;
 }

@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
   float x = 5;
   float y = 2;
 
@@ -13,19 +12,20 @@ int main()
   cout << 5 / 2.0 << endl;   // 2.5
   cout << 5.0 / 2.0 << endl; // 2.5
 
-  // you can store integers inside float but you cant store floats inside integers
+  // you can store integers inside float but you cant store floats inside
+  // integers
   float z = 10;
   cout << z << endl;
 
-  int a = 2.1;       // this line may generate a warning of implicit conversion from float to integer
+  int a = 2.1; // this line may generate a warning of implicit conversion from
+               // float to integer
   cout << a << endl; // this will print 2 not 2.1
 
   float c = 5.0;
   cout << c << endl; // 5 not 5.0
   cout << 7.0 << endl;
 
-  cout << endl
-       << endl;
+  cout << endl << endl;
 
   // find the remainder
   int p = 10;
