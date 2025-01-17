@@ -62,3 +62,19 @@ for (int i = 0; i < n; i++) {
 cout << sum << endl;
 
 ```
+
+### Maximum and minimum element of the array
+
+for maximum element, we use a variable maximum which is initialized with the first element of the array.
+as we progress through the array, we check if the current element is greater than the maximum.
+
+if the current element is greater than the maximum, we update the maximum to the current element.
+then we return the maximum value.
+
+same is done for the minimum element of the array.
+
+```cpp
+
+int n;
+cin >> n;
+```
