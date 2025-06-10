@@ -32,17 +32,17 @@ int main() {
   bool q = false;
   bool r = true;
 
-  cout << (p == q == r) << endl; // 1
+  cout << (p == q == r) << endl;  // 1
 
   // heirarchy of operators
 
-  float a = 2 * 3 / 4 + 4 / 4 + 8 - 2 + 5 / 2; // first we will calculate *, /
+  int a = 2 * 3 / 4 + 4 / 4 + 8 - 2 + 5 / 2;  // first we will calculate *, /
   cout << a << endl;
 
   // priority - () > (%, *, /) > (+, -) > (>, >=, <, <=) > (==, !=)
 
   int s = 5, t = 10;
-  s += t -= s; // in this case we will calculate from right to left
+  s += t -= s;  // in this case we will calculate from right to left
   cout << s << " " << t << endl;
 
   return 0;

@@ -3,7 +3,7 @@ using namespace std;
 
 long long int factorial(int x) {
   long long int f = 1;
-  for (int i = 1; i <= x; i++) {
+  for ( int i = 1; i <= x; i++ ) {
     f *= i;
   }
   return f;
@@ -34,9 +34,9 @@ int main() {
   cout << "Enter a number: ";
   cin >> n;
 
-  for (int i = 0; i <= n; i++) {
+  for ( int i = 0; i <= n; i++ ) {
     int i_c_0 = 1;
-    for (int j = 0; j <= i; j++) {
+    for ( int j = 0; j <= i; j++ ) {
       cout << i_c_0 << " ";
       i_c_0 *= (i - j) / (j + 1);
     }
